@@ -33,6 +33,7 @@ RUN set -ex; \
 		opcache \
 		zip \
 		soap \
+		curl \
 	; \
 	pecl install imagick-3.4.4; \
 	docker-php-ext-enable imagick; \
