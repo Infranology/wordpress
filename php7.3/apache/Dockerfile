@@ -22,6 +22,7 @@ RUN set -ex; \
 		libpng-dev \
 		libzip-dev \
 		libxml2-dev \
+		libcurl4-gnutls-dev \
 	; \
 	\
 	docker-php-ext-configure gd --with-freetype-dir=/usr --with-jpeg-dir=/usr --with-png-dir=/usr; \
